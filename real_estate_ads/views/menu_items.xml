@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <menuitem name="Property Ads" id="menu_root_property_ads" web_icon="/Users/pranavsalunkhe/odoo_project/v16/custom-addons/real_estate_ads/static/description/icon.png"/>
+    <menuitem id="menu_property_ads" name="Ads" parent="menu_root_property_ads" sequence="1"/>
+    <menuitem id="menu_property" name="Property" parent="menu_property_ads" action="real_estate_ads.action_property"
+              sequence="2"/>
+
+</odoo>
